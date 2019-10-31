@@ -132,7 +132,7 @@ button{
 	background-color:white;
 	border:1px solid grey;
 	width:30%;
-	height:20%;
+	height:50px;
 	margin-left:10%;
 	vertical-align: center;
 	
@@ -223,6 +223,8 @@ button{
 }
 
 
+}
+
 
 /*
 SERVICES PAGE STYLING HERE:
@@ -238,18 +240,56 @@ SERVICES PAGE STYLING HERE:
 .service2 h2{
 	font-size: 30px;
 }
-.middle2{
+/*
+#middle2{
 	border:2px solid black;
 	display:flex;
+	justify-content: space-between;
+	width:100%;
+	flex-wrap: wrap;
+
 	
 }
-/*
+*/
+#middle2{
+width:90%;
+	display:flex;
+	justify-content: space-around;
+flex-wrap:wrap;
+}
+
+
+
+
+
 .boxes{
-	border: 3px solid blue;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	
+	width:40%;
+	justify-content: space-around;
+	height:200px;
+	margin-bottom:5%;
+	border: 1px solid black;
+	background-color:lightgray
+}
+	
+#middle2 button{
+	background-color:white;
+	border:1px solid grey;
 	width:20%;
-	flex-direction: row;
+	height:30px;
+	margin-left:10%;
+	vertical-align: center;
+	margin-top:10%;
+ border-radius: 5%;
+}
 
-
+.services2{
+	width:90%;
+	height: 100px;
+	margin-bottom:5%;
+}
+	.services2 h2{
+		font-size: 30px;
+	}
+	
 
