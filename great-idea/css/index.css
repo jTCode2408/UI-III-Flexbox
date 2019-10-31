@@ -64,3 +64,189 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	border:3px solid gray;
+	height:100%;
+	width:100%;
+
+.head {
+	display:flex;
+
+}
+}
+nav{
+	text-align: center;
+	height:10px;
+}
+nav a{
+margin-top: 2%;
+margin-left:4%;
+margin-right:4%;
+display:inline;
+float:left;
+}
+.logo{
+	
+	width:20%;
+	display:inline-block;
+
+	
+}
+#top {
+
+    height:60%;
+	width:90%;
+	display:flex;
+	margin-left:10px;
+	justify-content:center;
+	margin-bottom:10%;
+	
+}
+
+.header{
+
+width:40%;;
+height:100%;
+display:flex;
+flex-direction:column;
+
+
+}
+
+h1{
+
+	font-size:100px;
+	margin-top: 5%;
+	width:50%;
+	text-align:center
+
+}
+
+.codepic{
+width:30%;
+margin-top:5%;
+
+}
+
+button{
+	background-color:white;
+	border:1px solid grey;
+	width:30%;
+	height:20%;
+	margin-left:10%;
+	vertical-align: center;
+	
+}
+#middle{
+	border-top: 1px solid black;
+	display:flex;
+	height:50%;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	justify-content:space-between;
+	
+}
+
+.features{
+	margin-top:4%;
+	height:50%;
+	width:45%;
+	margin-left:2%;
+	margin-bottom:0;
+
+}
+.about{
+
+	width:45%;
+	height:50%;
+	margin-top:4%;
+	margin-right:2%;
+	margin-bottom:0;
+	
+}
+.middle-img{
+	display:flex;
+	justify-content: center;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	
+}
+#bottom{
+	
+	width:90%;
+	height:50%;
+	margin-left:5%;
+	margin-right:5%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	border-bottom:1px solid black;
+}
+.services{
+	
+	text-align:left;
+	width:33%;
+	height:100%;
+	margin-top:5%;
+}
+
+.product{
+	
+   text-align:left;
+	width:33%;
+	height:100%;
+	margin-top:5%;
+
+}
+
+
+.vision{
+	text-align:left;
+   width:33%;
+	height:100%;
+	margin-top:5%;
+
+}
+.contact{
+	border:2px solid black;
+	line-height: 2;
+	text-align:left;
+}
+.copyright{
+	border: 1px solid blue;
+	text-align:center;
+	width:100%;
+	margin:100px;
+	margin:0 auto
+}
+
+
+
+/*
+.contact{
+	width:90%;
+	height:50%;
+	margin-left:5px;
+	margin-right:5px;
+	display:flex;
+	
+}
+.contact h3{
+	margin-top:20px;
+}
+.contact p{
+	text-align:center;
+	justify-content: center;
+
+}
+
+.contact address{
+	line-height: 2;
+}
+*/
+
+
+
+
