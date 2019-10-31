@@ -225,28 +225,31 @@ button{
 
 
 /*
-.contact{
+SERVICES PAGE STYLING HERE:
+*/
+
+.services-header-img{
+	display:flex;
+	justify-content: center;
 	width:90%;
-	height:50%;
-	margin-left:5px;
-	margin-right:5px;
+	margin-left:5%;
+	margin-right:5%;
+}
+.service2 h2{
+	font-size: 30px;
+}
+.middle2{
+	border:2px solid black;
 	display:flex;
 	
 }
-.contact h3{
-	margin-top:20px;
-}
-.contact p{
-	text-align:center;
-	justify-content: center;
-
-}
-
-.contact address{
-	line-height: 2;
-}
-*/
-
+/*
+.boxes{
+	border: 3px solid blue;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width:20%;
+	flex-direction: row;
 
 
 
